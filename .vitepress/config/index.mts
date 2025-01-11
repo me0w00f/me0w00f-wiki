@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { zh, search as zhSearch } from './zh'
-import { qqIcon } from '../theme/icons/svg-path'
+
 import footnote from 'markdown-it-footnote'
 import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite'
 
@@ -17,8 +17,8 @@ export default defineConfig({
     logo: '/logo/favicon.png',
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/haueosc/haue-cs-wiki' },
-      { icon: { svg: qqIcon }, link: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Zm8MUF5_X_NttegYnhdv9eeYxv2iC7sn&authKey=rwPlDN5zUbwU8WzOSvv%2FR3u8wwgS2yu7DAvFAq%2BMRATIglis8SNHg3%2FCLhW%2Bpi8I&noverify=0&group_code=907625834' }
+      { icon: 'github', link: 'https://github.com/me0w00f/me0w00f-wiki' },
+      // { icon: { svg: qqIcon }, link: '' }
     ],
 
     search: {
@@ -43,7 +43,7 @@ export default defineConfig({
   vite: {
     plugins: [
       GitChangelog({
-        repoURL: () => 'https://github.com/haueosc/haue-cs-wiki',
+        repoURL: () => 'https://github.com/me0w00f/me0w00f-wiki',
       }),
       GitChangelogMarkdownSection({
         exclude: (id) => id.slice(-9) === 'index.md',

@@ -46,6 +46,6 @@
     - **用途**：快速响应问题的AI聊天工具，支持多轮交互。
     - **适用人群**：希望快速获取答案并与AI对话的用户。
 ***
-::: warning :construction:INFO
+::: tip :construction:TIP
 推荐:claude、ChatGPT
 :::

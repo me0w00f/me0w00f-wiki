@@ -1,11 +1,11 @@
 <template>
     <div class="footers">
         <div class="container-block" style="margin-bottom: 5px;">
-            <p style="font-weight: bold; font-size: 13px;">Released under the
-                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
-                    CC BY-NC-SA 4.0 License
-                </a>
-            </p>
+<!--            <p style="font-weight: bold; font-size: 13px;">Released under the-->
+<!--                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">-->
+<!--                    CC BY-NC-SA 4.0 License-->
+<!--                </a>-->
+<!--            </p>-->
         </div>
         <div class="container-block" style="margin-bottom: 5px;">
             <p style="font-weight: bold; font-size: 13px;">Copyright © 2024 Me0w00f-WIKI</p>
