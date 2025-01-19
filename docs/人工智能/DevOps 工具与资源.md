@@ -24,7 +24,7 @@
     - **用途**：支持自动 HTTPS 的强大开源 Web 服务器。
     - **适用人群**：开发者和网站管理员。
 
-- **[Unicorn](https://www.uvicorn.org/)**
+- **[Uvicorn](https://www.uvicorn.org/)**
     - **用途**：快速、轻量的 ASGI 服务器，用于运行 Python Web 应用。
     - **适用人群**：后端开发人员。
 
