@@ -1,5 +1,17 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
-import { forewordIcon, school, tools, backend, frontend, chatgpt, learn_408, hard_worker, run_bag, acm } from '../theme/icons/svg-path'
+import {
+    forewordIcon,
+    school,
+    tools,
+    backend,
+    frontend,
+    chatgpt,
+    learn_408,
+    hard_worker,
+    run_bag,
+    acm,
+    softIcon
+} from '../theme/icons/svg-path'
 
 export const zh = defineConfig({
     lang: 'zh-Hans',
@@ -66,11 +78,19 @@ function sidebar(): DefaultTheme.SidebarItem[] {
             ]
         },
         {
-            text: tools + '开发工具',
+            text: softIcon + '开发工具',
             collapsed: true,
             items: [
                 
                 { text: 'JetBrains全家桶', link: '/开发工具/JetBrains全家桶', },
+            ]
+        },
+        {
+            text: tools + '软件集合',
+            collapsed: true,
+            items: [
+
+                { text: '实用软件大合集', link: '/软件集合/实用软件大合集', },
             ]
         },
 
