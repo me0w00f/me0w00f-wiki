@@ -21,6 +21,7 @@ import 'vitepress-plugin-codeblocks-fold/style/index.css'
 import Footer from './components/Footer.vue'
 import TypedInfo from './components/TypedInfo.vue'
 // import Main from './components/Main.vue'
+import SoftwareList from './components/SoftwareList.vue'
 
 import HeroImage from './components/HeroImage.vue'
 //-------------------------------------------------
@@ -56,6 +57,6 @@ export default {
         }
       }
     } as NolebaseReadOptions);
-
+    app.component('SoftwareList', SoftwareList);
   }
 } satisfies Theme
